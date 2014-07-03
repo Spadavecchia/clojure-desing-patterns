@@ -20,5 +20,5 @@
 ```clojure
 (defn conequences [current-state event]
   (reduce update-state current-state
-    (conseuences current-state event)))
+    (consequences current-state event)))
 ```
